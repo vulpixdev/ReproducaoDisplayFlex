@@ -1,0 +1,91 @@
+body {
+    line-height: 1.7;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+}
+
+header{
+    float: left;
+    width: 250px;
+    height: 100vh;
+    min-height: 400px;
+    overflow: auto;
+    background: #000;
+    padding: 30px;
+    text-align: left;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+svg{
+    fill: #fff;
+    width: 9px;
+}
+
+svg:hover{
+    fill: #df0e62;
+}
+
+#aaaaa{
+    text-align: end;
+}
+
+.principal {
+    float: right;
+    width: calc(100% - 250px);
+    background-image: url("img/img_9.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#primeiro-botao{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #df0e62;
+    border-color: #df0e62;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0%;
+}
+
+li {
+    display: list-item;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #df0e62;
+}
+
+header .site-logo a {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header .nav-menu {
+    margin-right: auto;
+}
