@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+::selection{
+    background-color: black;
+    color: white;
+}
+
 header{
     float: left;
     width: 250px;
@@ -86,6 +91,6 @@ header .site-logo a {
     font-weight: bold;
 }
 
-header .nav-menu {
+header .navegacao {
     margin-right: auto;
 }
